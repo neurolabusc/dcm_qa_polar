@@ -38,3 +38,4 @@ You can run the script `batch.sh` from the Linux/macOS command line. It will use
 ## Links
 
  * For details on GE scans and links to sample images see [dcm_qa_ge](https://github.com/rordenlab/dcm2niix/tree/master/GE).
+ * Details regarding the dcm2niix kludge for ``epi_pepolar` sequences is described in [issue532](https://github.com/rordenlab/dcm2niix/issues/532).
