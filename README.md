@@ -33,7 +33,7 @@ All data was acquired GE SIGNA ultra-high performance (UHP) 3.0T scanner. Images
 
 ## Usage
 
-You can run the script `batch.sh` from the Linux/macOS command line. It will use your installed version of [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert the provided DICOM images to NIfTI format and will check that the results match the expected solution in the `ref` folder. 
+You can run the script `batch.sh` from the Linux/macOS command line. It will use your installed version of [dcm2niix](https://github.com/rordenlab/dcm2niix) to convert the provided DICOM images to NIfTI format and will check that the results match the expected solution in the `ref` folder.
 
 ## Links
 
