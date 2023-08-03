@@ -1,7 +1,7 @@
 
 ## About
 
-`dcm_qa_polar` is a DICOM to NIfTI validator script and dataset to test conversion of Siemens mosaic DICOM datasets to the NIfTI format. Specifically, these scan illustrate `epi_pepolar` research sequence, where some image have reversed row order (making them appear flipped in tools that assume the DICOM spatial transform is truthful).
+`dcm_qa_polar` is a DICOM to NIfTI validator script and dataset to test conversion of GE DICOM datasets to the NIfTI format. Specifically, these scan illustrate `epi_pepolar` research sequence, where some image have reversed row order (making them appear flipped in tools that assume the DICOM spatial transform is truthful).
 
 Echo Planar Imaging (EPI) provides rapid scans, but the images are inherently distorted. Tools like [TOPUP](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/topup/TopupUsersGuide) can undistort spin echo EPI scans based on pairs of images where the phase encoding polarity is reversed. Since these volumes have spatial distortion of equal magnitude but opposite direction, one can infer the actual shape (the midpoint between the two distorted locations).
 
