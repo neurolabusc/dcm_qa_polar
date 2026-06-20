@@ -5,6 +5,7 @@
 	"Manufacturer": "GE",
 	"ManufacturersModelName": "SIGNA UHP",
 	"InstitutionName": "U of M research",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "0007347633TMRFIX",
 	"StationName": "GEHCGEHC",
 	"BodyPart": "BRAIN",
@@ -16,8 +17,9 @@
 	"ProtocolName": "ABCD_RX28 32ch HB 7/9/21",
 	"ScanningSequence": "EP\\RM",
 	"SequenceVariant": "NONE",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "SAT_GEMS\\MP_GEMS\\EPI_GEMS\\FS",
-	"PulseSequenceName": "research/ABCD/epi_pepolar",
+	"SequenceName": "research/ABCD/epi_pepolar",
 	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
 	"SeriesNumber": 7,
 	"AcquisitionTime": "12:53:53.000000",
@@ -44,7 +46,10 @@
 	"PercentSampling": 100,
 	"AcquisitionMatrixPE": 72,
 	"ReconMatrixPE": 128,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.0005,
+	"AcquisitionDuration": 29.6,
 	"TotalReadoutTime": 0.0635,
 	"PixelBandwidth": 3906.25,
 	"PhaseEncodingDirection": "j-",
@@ -119,5 +124,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["fmap","_acq-EPI_dir-AP_run-7_epi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
